@@ -17,7 +17,8 @@
 
 ## Building the backend application
 
-    ###  Generating jar file
+###  Generating jar file
+
         1.You should have Java 8 and Maven already installed in the system
         2.Run mvn clean install in the directory of student-spring
         3.springdemo-0.0.1-SNAPSHOT.jar will be created in target folder
@@ -25,7 +26,8 @@
         5.Now you should be able to access the application by http://localhost:8080
         6.If student-angular is running then you could access application by http://localhost:8080
 
-    ### Integrating backend and frontend application
+### Integrating backend and frontend application
+
         1. We could integrate both backend and frontend applications
         2. Important : Please change environment.ts of student-angular URL's from http://localhost:8080/students/ to /students/
         3. Please run 'ng build' in the student-angular root directory.
@@ -36,5 +38,4 @@
         8. This could also be automated if we keep the angular source code in student-spring but I chose to have a separate project student-angular
 
 
-
-    ### Running Docker Container and Docker-compose.yml
+### Running Docker Container and Docker-compose.yml
