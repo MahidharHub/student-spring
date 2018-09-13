@@ -19,12 +19,12 @@
 
 ###  Generating jar file
 
-1.You should have Java 8 and Maven already installed in the system
-2.Run mvn clean install in the directory of student-spring
-3.springdemo-0.0.1-SNAPSHOT.jar will be created in target folder
-4.java -jar springdemo-0.0.1-SNAPSHOT.jar will start the server in the port 8080
-5.Now you should be able to access the application by http://localhost:8080
-6.If student-angular is running then you could access application by http://localhost:8080
+1. You should have Java 8 and Maven already installed in the system
+2. Run mvn clean install in the directory of student-spring
+3. springdemo-0.0.1-SNAPSHOT.jar will be created in target folder
+4. java -jar springdemo-0.0.1-SNAPSHOT.jar will start the server in the port 8080
+5. Now you should be able to access the application by http://localhost:8080
+6. If student-angular is running then you could access application by http://localhost:8080
 
 ### Integrating backend and frontend application
 
@@ -50,8 +50,8 @@
 7. Important : Please do not forget the dot in the command
 8. Runnning Angular : 'docker run -d  -p 4200:4200   b1c966d6272a'
 9. Running Spring :   'docker run -d  -p 8080:8080   8015967e4b5e'
-10. Numericals are docker image id's
-11.'docker stop f8bbad5704ae' will stop the running container (Here the id is of container)
+10. Numericals are docker image id
+11. 'docker stop f8bbad5704ae' will stop the running container (Here the id is of container)
 12. You can see all images by running 'docker images'
 13. You can see running containers 'docker ps -a'
 14. 'docker rm a1e0c0c50034' will remove the container
