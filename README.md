@@ -39,7 +39,7 @@
 9. But I chose to have a separate project student-angular
 
 
-### Running Docker Container and Docker-compose.yml
+### Running Docker Containers
 
 1. If you are using in Linux,creating and running is more straight forward.
 2. In windows there will be some challenges particularly running the student-angular container.
