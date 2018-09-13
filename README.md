@@ -64,7 +64,7 @@
 ### Running  Docker-compose.yml
 
 1. Running docker-compose is much more easy.
-2. If the images are already build .Please verify by running the command 'docker images'
+2. Please verify whether the images are already build by running the command 'docker images'
 3. You should see 'student-angular' and 'student-spring' with Tag id 'Version1' for both of them
 4. Now you can run 'docker-compose up' in the root folder
 5. This will start both the containers.
