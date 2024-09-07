@@ -16,6 +16,7 @@
    6. Docker
 
 ## Building the backend application
+## Building the backend application
 
 ###  Generating jar file
 
